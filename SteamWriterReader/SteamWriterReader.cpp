@@ -17,6 +17,8 @@ int main() {
 	while (true) {
 		cout << "- ";
 		//mendapatkan satu karakter dalam satu baris 
-		getline
+		getline(cin, baris);
+		//loop akan berhenti jika anda memasukkan karakter 4
+		if (baris ==)
 	}
 }
