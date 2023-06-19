@@ -19,6 +19,8 @@ int main() {
 		//mendapatkan satu karakter dalam satu baris 
 		getline(cin, baris);
 		//loop akan berhenti jika anda memasukkan karakter 4
-		if (baris ==)
+		if (baris == "q") break;
+		//menulis dan memasukkan nilai dari 'baris' ke dalam file
+		outfile << baris << endl;
 	}
 }
