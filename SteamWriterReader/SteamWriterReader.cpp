@@ -40,8 +40,10 @@ int main() {
 		{
 			//dan tampilkan disini
 			cout << baris << '\n';
-
 		}
+		//tutup file tersebut setelah selasai
+		infile.close();
 	}
-
+	//jika tidak titemukan file maka akan menampilkan ini 
+	else cout << "unable to open file";
 }
