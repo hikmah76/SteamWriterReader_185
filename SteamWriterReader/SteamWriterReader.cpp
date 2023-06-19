@@ -25,6 +25,13 @@ int main() {
 	}
 	// selesai dalam menulis sekarang tutup file
 	outfile.close();
-	//
+	//membuka file dalam mode membaca
+	ifstream indile;
+	//menunjuk kesebuah file
+	infile.open("contohfile.text");
+	
+	cout << endl << ">= Membuka dan membaca file " << endl;
+	//jika file anda maka 
+	if
 
 }
