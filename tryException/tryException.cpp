@@ -14,7 +14,7 @@ int main()
 	}
 	cath(...) {
 		/*jika selain integer maka blok ini akan dieksekusi*/
-		cout <<
+		cout << "default pengecualian dieksekusi" << endl;
 	}
 }
 
