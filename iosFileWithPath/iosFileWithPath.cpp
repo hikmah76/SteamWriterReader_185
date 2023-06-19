@@ -13,7 +13,7 @@ int main() {
 	//menulis file dalam mode menulis
 	ofstream outfile;
 	//menunjuk kesebuah nama file
-	outfile.open("contohfile.text");
+	outfile.open(NamaFile + ".text", ios::out);
 
 	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 

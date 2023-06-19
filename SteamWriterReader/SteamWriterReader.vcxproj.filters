@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SteamWriterReader.cpp">
+    <ClCompile Include="oftream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
