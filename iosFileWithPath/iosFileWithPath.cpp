@@ -32,7 +32,7 @@ int main() {
 	//membuka file dalam mode membaca
 	ifstream infile;
 	//menunjuk kesebuah file
-	infile.open("contohfile.text");
+	infile.open(NamaFile + ".text", ios::in);
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
 	//jika file anda maka 
